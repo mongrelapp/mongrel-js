@@ -1,0 +1,41 @@
+{
+  "name": "mongrel-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "rm -rf ./dist && rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mongrel-app/mongrel-js.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "mongrel",
+    "mongreldb",
+    "package",
+    "module"
+  ],
+  "author": "support@mongrel.app",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mongrel-app/mongrel-js/issues"
+  },
+  "homepage": "https://github.com/mongrel-app/mongrel-js#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-typescript": "^8.2.5",
+    "rollup-plugin-terser": "^7.0.2",
+    "typescript": "^4.3.5"
+  },
+  "files": [
+    "dist"
+  ],
+  "rootDir": "src"
+}
