@@ -1,4 +1,4 @@
-# mongreldb
+# mongrel-js
 
 
 ## Table of Contents
@@ -15,19 +15,19 @@
 Using npm:
 
 ```bash
-$ npm install mongreldb
+$ npm install @mongrelapp/mongreljs
 ```
 
 Using bower:
 
 ```bash
-$ bower install mongreldb
+$ bower install @mongrelapp/mongreljs
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add mongreldb
+$ yarn add @mongrelapp/mongreljs
 ```
 
 ## Example
