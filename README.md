@@ -1,13 +1,4 @@
-# mongrel-js
-
-
-## Table of Contents
-
-
-## Features
-
-
-## Browser Support
+# Mongrel
 
 
 ## Installing
