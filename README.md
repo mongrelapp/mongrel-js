@@ -23,8 +23,6 @@ $ yarn add @mongrelapp/mongreljs
 
 ### Quick Start:
 
-Create an database instance
-
 ```javascript
 const mongrelDB = require("@mongrelapp/mongreljs");
 
