@@ -5,7 +5,24 @@ const execute = async (closure) => {
     const { data } = await closure;
     return data;
   } catch (error) {
-    throw error;
+    let message;
+    switch (error.response.status) {
+      case 400:
+        message = "Request cannot be completed";
+        break;
+      case 401:
+        message = "Request cannot be completed";
+        break;
+      case 404:
+        message = "Request cannot be completed";
+        break;
+      case 500:
+        message = "Request cannot be completed";
+        break;
+      default:
+        message = "Unknown error";
+    }
+    throw { code: error.response.status, message }
   }
 };
 
@@ -42,9 +59,25 @@ const mongrelDB = (config) => {
      * @param {Object} data - The key-value pair to insert
      */
     put: (key, data) => {
+      let converted;
+      switch (typeof data) {
+        case "string":
+          converted = data;
+          break;
+        case "boolean":
+          converted = data.toString();
+          break;
+        case "number":
+          converted = data.toString();
+          break;
+        case "object":
+          converted = JSON.stringify(data);
+          break;
+      }
+
       return execute(
         axiosInstance.put("/package/" + key, {
-          value: data,
+          value: converted,
         })
       );
     },

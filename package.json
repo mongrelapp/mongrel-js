@@ -17,7 +17,7 @@
     "package",
     "module"
   ],
-  "author": "support@mongrel.app",
+  "author": "admin@mongrel.app",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mongrelapp/mongrel-js/issues"
