@@ -1,10 +1,11 @@
 {
   "name": "@mongrelapp/mongreljs",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Thanks for using Mongrel!",
   "main": "./dist/bundle.js",
   "scripts": {
-    "build": "rm -rf ./dist && rollup -c"
+    "build": "rm -rf ./dist && rollup -c",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",

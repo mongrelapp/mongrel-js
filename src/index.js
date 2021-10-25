@@ -11,13 +11,13 @@ const execute = async (closure) => {
         message = "Request cannot be completed";
         break;
       case 401:
-        message = "Request cannot be completed";
+        message = "Permission denied";
         break;
       case 404:
-        message = "Request cannot be completed";
+        message = "This data item cannot be found";
         break;
       case 500:
-        message = "Request cannot be completed";
+        message = "Internal server error";
         break;
       default:
         message = "Unknown error";
