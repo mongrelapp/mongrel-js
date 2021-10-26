@@ -1,6 +1,6 @@
 {
   "name": "@mongrelapp/mongreljs",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Thanks for using Mongrel!",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -12,7 +12,6 @@
     "url": "git+https://github.com/mongrelapp/mongrel-js.git"
   },
   "keywords": [
-    "dynamodb",
     "mongrel",
     "mongreldb",
     "package",
