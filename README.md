@@ -56,6 +56,8 @@ db.delete("example")
     .catch(console.error);
 ```
 
+## Documentation
+you can find all the documentation [here](https://docs.mongrel.app/) for the mongrel module
 
 ## License
 
