@@ -1,6 +1,6 @@
 {
   "name": "@mongrelapp/mongreljs",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Thanks for using Mongrel!",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/mongrelapp/mongrel-js/issues"
   },
-  "homepage": "https://github.com/mongrelapp/mongrel-js#readme",
+  "homepage": "https://mongrel.app",
   "dependencies": {
     "axios": "^0.21.1"
   },
